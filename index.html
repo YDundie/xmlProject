@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="namesRun()">
+    <div class="customers">
+        <div id="landingPage">Customer names and basic infromation</div>
+        <p id="center">Click on name for more information!!</p>
+        <table id="names"></table>
+    </div>
+
+    <div class="search">
+        <div class="naslov">Hello Admin. Search for more information on your customers!</div>
+        <div id="search">
+            <input type="text" placeholder="ENTER PART OF THE NAME" id="myInput" onkeydown="search(this)">
+        </div>
+        <button onclick="top10()">Get Top Ten Earners</button>
+
+        <div id="customerData">
+            <table id="customer"></table>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>

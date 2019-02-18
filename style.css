@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 10px #7A7A7A; 
+}
+.search{
+    background-color: cornflowerblue;
+    min-height: 100%;
+    font-weight:900;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.naslov{
+    flex:0.5;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 44px;
+}
+
+.customers{
+    color: black;
+    background-color: #FFCC33;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#landingPage{
+    font-weight:900;
+    font-size: 70px;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+#search{
+    flex:1;
+    margin:0 auto;
+}
+input{
+    font-size: 75px;
+    text-align: center;
+    color:cornflowerblue;
+    margin: 1vh;
+}
+
+input::placeholder{
+    color:rgba(100, 149, 237,0.4);
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+#customerData{
+flex:10;
+align-items: center;
+align-content: center;
+}
+
+#names{
+    margin-top: 3%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+th{
+    font-size: 33px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom:10px;
+}
+tr{
+    padding-bottom: 10px;
+    transition: 1s all;
+   
+}
+
+td{
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+}
+
+tr:hover{
+    color:red;
+    font-weight: 800;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+#customer{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+ #center{
+     margin: 0 auto;
+ }
+
+ button{
+     height: 7vh;
+     color:cornflowerblue;
+     font-size: 24px;
+     font-weight: 800;
+     border: none;
+     margin: 1vh;
+ }
+
+ button:hover{
+   transition: 1s all;
+   color:white;
+   background: rgb(28, 97, 187)
+}
